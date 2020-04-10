@@ -1,0 +1,194 @@
+
+@media (max-width: 1366px){
+	.container {
+		max-width: 960px;
+	}  
+
+	.promo {
+		background-position: center right -300px;
+		background-size: 750px;
+	}
+
+	.restaurants_cards_info_price, .restaurants_cards_info_category{
+		font-size: 14px;
+	}
+
+	.restaurants_cards_info_rating {
+		font-size: 14px;
+		margin-right: 15px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container{
+		max-width: 750px;
+	}
+
+	.promo{
+		padding:50px;
+		background-size: 500px;
+		background-position: center right -200px;
+	}
+
+	.promo_text{
+		font-size: 18px;
+	}
+
+	.card{
+		flex-basis: 49%;
+	}
+
+	.footer_link{
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container{
+		max-width: 560px;
+	}
+
+	.restaurants_cards_info {
+		flex-wrap: wrap;
+	}
+
+	.card .restaurants_cards_info_rating {
+		flex-basis: 100%;
+	}
+
+	.restaurants_card_text_heading_title{
+		font-size: 18px;	
+	}
+
+	.promo_title{
+		font-size: 24px;
+		line-height: 25px;
+		margin-bottom: 10px;
+	}
+
+	.promo_text{
+		margin-top: 0;
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	.promo{
+		background-size: 380px;
+		background-position: center right -200px;
+	}
+}
+
+@media (max-width: 578px) {
+	.container {
+		max-width: 90%;
+	}
+	.header {
+		flex-wrap: wrap;
+	}
+
+	.input_adress {
+		margin-top: 15px;
+		order: 5;
+		flex:1;
+	}
+
+	.promo{
+		background-image: none;
+	}
+
+	.restaurants_title{
+		font-size: 20px;
+	}
+
+	.card{
+		flex-basis: 100%;
+	}
+
+	.restaurants_cards_img{
+		width: 100%;
+	}
+
+	.footer{
+		padding: 30px 0;
+	}
+
+	.footer_block{
+		align-items: flex-start;
+	}
+	.footer_nav{
+		margin-left: 0;
+		margin-right: 0;
+		order: 0;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer_logo{
+		margin-right: 15px;
+		order:1;
+	}
+
+	.footer_sozial_links{
+		order:2;
+	}
+
+	.footer_link{
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 480px) {
+	.button_text{
+		display: none;
+	}
+
+	.button{
+		min-height: 35px;
+	}
+
+	.button_icon{
+		margin-right: 0px;
+	}
+
+	.promo{
+		padding: 20px;
+	}
+	
+	.promo_text{
+		display: none;
+	}
+	.promo_text_small{
+		display: inline-block;
+		font-weight: normal;
+		margin-top: 5px;
+		font-size: 16px;
+		line-height: 18px;
+		color: #302C34;
+	}
+	.restaurants_heading{
+		flex-wrap: wrap;
+	}
+
+	.restaurants_cards{
+		margin-top: 20px;
+	}
+	.footer_block {
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer_logo{
+		order:0;
+		margin-bottom: 20px;
+	}
+
+	.footer_nav{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.footer_link:not(:last-child){
+		margin-right: 0px;
+	}
+}
